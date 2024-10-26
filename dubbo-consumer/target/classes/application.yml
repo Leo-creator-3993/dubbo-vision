@@ -1,3 +1,6 @@
+server:
+  port: 18088
+
 spring:
   application:
     name: dubbo-consumer
@@ -8,4 +11,3 @@ dubbo:
     qos-enable: false
   registry:
     address: zookeeper://127.0.0.1:2181
-

@@ -6,6 +6,7 @@ import org.apache.dubbo.config.ApplicationConfig;
 import org.apache.dubbo.config.ReferenceConfig;
 import org.apache.dubbo.config.RegistryConfig;
 import org.apache.dubbo.config.annotation.DubboReference;
+import org.apache.dubbo.rpc.RpcContext;
 import org.apache.dubbo.rpc.service.GenericService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -64,14 +65,12 @@ public class ConsumerSpringApplication  implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
+        RpcContext.getContext().setAttachment("dubbo.application", "#####Void#####");
         User user0 = iUserService.getUser();
         System.out.println("######==========######常规调用结果: " + user0);
 
+        RpcContext.getContext().setAttachment("dubbo.application", "#####ArgsArgs#####");
         User user1 = iUserService.getUserBy("MOS", 98);
         System.out.println("######==========######常规调用结果: " + user1);
-
-
-        System.out.println("######==========######QoS enabled: " + System.getProperty("dubbo.qos.enable"));
-        System.out.println("######==========######QoS port: " + System.getProperty("dubbo.qos.port"));
     }
 }

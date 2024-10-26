@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d34cd70-10e9-4a29-8057-07672ee4390f" name="Changes" comment="" />
+    <list default="true" id="2d34cd70-10e9-4a29-8057-07672ee4390f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/dubbo-consumer/src/main/java/com/future/dubbo/consumer/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-consumer/src/main/java/com/future/dubbo/consumer/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-consumer/src/main/java/com/future/dubbo/consumer/filter/InvokeBusinessFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-consumer/src/main/resources/META-INF/dubbo/org.apache.dubbo.rpc.Filter" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-provider/src/main/java/com/future/dubbo/provider/filter/ProviderLoggingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-provider/src/main/resources/META-INF/dubbo/org.apache.dubbo.rpc.Filter" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/src/main/java/com/future/dubbo/consumer/ConsumerSpringApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-consumer/src/main/java/com/future/dubbo/consumer/ConsumerSpringApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-consumer/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/target/classes/com/future/dubbo/consumer/ConsumerSpringApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-consumer/target/classes/com/future/dubbo/consumer/ConsumerSpringApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-provider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-provider/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-provider/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-provider/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,12 +37,25 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="$PROJECT_DIR$/../../../tool/apache-maven-3.6.0" />
+        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="$USER_HOME$/.m2/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2nEhZ4zgxFsCiy0WGG8AoCSEd0I" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
@@ -36,13 +65,23 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.ConsumerSpringApplication.executor": "Run",
+    "Application.ConsumerSpringApplication.executor": "Debug",
     "Application.ProviderSpringApplication.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "editor.preferences.import"
+    "last_opened_file_path": "/Users/xieyao/IdeaProjects/project/passion/functionContainers/genericInvoke/dubbo-provider/src/main/resources/META-INF/dubbo",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dubbo-provider/src/main/resources/META-INF/dubbo" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.ConsumerSpringApplication">
     <configuration name="ConsumerSpringApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.future.dubbo.consumer.ConsumerSpringApplication" />

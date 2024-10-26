@@ -1,0 +1,1 @@
+providerLoggingFilter=com.future.dubbo.provider.filter.ProviderLoggingFilter
